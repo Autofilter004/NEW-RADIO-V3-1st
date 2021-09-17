@@ -577,5 +577,5 @@ async def not_chat(_, m: Message):
             ]
 
          ]
-    k=await m.reply_photo(photo="https://telegra.ph/file/4e839766d45935998e9c6.jpg", caption="**Sorry, You Can't Use This Bot In This Group below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
+    k=await m.reply_photo(photo="https://telegra.ph/file/36c36416722e6855817bf.jpg", caption="**Sorry, You Can't Use This Bot In This Group below 😉!**", reply_markup=InlineKeyboardMarkup(buttons))
     await mp.delete(m)
