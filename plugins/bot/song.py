@@ -97,15 +97,7 @@ async def song(_, message: Message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        cap = f'🎼 <b>Title:</b> <a href="{link}">{title}</a>\n\n
-
-⏳ <b>Duration:</b>{duration}\n\n
-
-😇 <b>Views:</b>{views}\n\n
-
-💝 <b>Requested By:</b>{message.from_user.mention()}\n\n
-
-😴 <b>Uploaded By:<a href="https://t.me/mhd_thanzeer">𝗠𝗛𝗗_𝗧𝗛𝗔𝗡𝗭𝗘𝗘𝗥</a></b> '
+        cap = f'🎼 <b>Title:</b> <a href="{link}">{title}</a>\n\n⏳<b>Duration:</b> {duration} \n\n😇 <b>Views:</b> {views} \n\n💝 <b>Requested :</b> {message.from_user.mention()} \n\n😴 <b>Uploader : <a href="https://t.me/mhd_thanzeer"> 𝗠𝗛𝗗_𝗧𝗛𝗔𝗡𝗭𝗘𝗘𝗥 </a></b>'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
