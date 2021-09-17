@@ -176,7 +176,7 @@ async def restart(_, message: Message):
         target=stop_and_restart
         ).start()
     try:
-        await k.edit("✅ **Restarted Successfully! \nJoin @mhd_thanzeer For More!**")
+        await k.edit("✅ **Restarted Successfully! \nControl @mhd_thanzeer For More!**")
         await k.reply_to_message.delete()
     except:
         pass
