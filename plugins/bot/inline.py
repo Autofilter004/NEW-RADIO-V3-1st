@@ -26,16 +26,13 @@ from config import Config
 
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
+
             [
-                InlineKeyboardButton("❔ HOW TO USE ME ❔", callback_data="help"),
-            ],
-            [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
-            ],
-            [
-                InlineKeyboardButton("🤖 MAKE YOUR OWN BOT 🤖", url="https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayerV3"),
+
+                InlineKeyboardButton("🔷 CONTACT  ONWER 🔷", url="https://t.me/mhd_thanzeer"),
+
             ]
+
          ]
 
 
