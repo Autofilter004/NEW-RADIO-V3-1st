@@ -42,8 +42,8 @@ async def search(client, query):
     if query.query == "SAF_ONE":
         answers.append(
             InlineQueryResultArticle(
-                title="Deploy Your Own Radio Player",
-                thumb_url="https://telegra.ph/file/4e839766d45935998e9c6.jpg",
+                title="iam Radio Player",
+                thumb_url="https://telegra.ph/file/36c36416722e6855817bf.jpg",
                 input_message_content=InputTextMessageContent(f"{REPLY_MESSAGE}\n\n<b>© Powered By : \n@mhd_thanzeer 👑</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
