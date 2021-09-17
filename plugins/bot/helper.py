@@ -28,7 +28,7 @@ CHAT=Config.CHAT
 ADMINS=Config.ADMINS
 playlist=Config.playlist
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @AsmSafone 😉!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **MHD CREATION** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @mhd_thanzeer 😉!"
 HELP_TEXT = """
 🏷️ --**Setting Up**-- :
 
@@ -186,19 +186,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
+                InlineKeyboardButton("SEARCH SONGS HERE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
-            ],
-            [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
-            ],
-            [
-                InlineKeyboardButton("CLOSE MENU", callback_data="close"),
+                InlineKeyboardButton("GROUP", url="https://t.me/wolfpackmedia"),
+                InlineKeyboardButton("ONWER", url="https://t.me/mhd_thanzeer"),
             ]
+           
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         try:
@@ -220,20 +214,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
 @Client.on_message(filters.command(["start", f"start@{USERNAME}"]))
 async def start(client, message):
     buttons = [
+
             [
-                InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
+
+                InlineKeyboardButton("SEARCH SONGS HERE", switch_inline_query_current_chat=""),
+
             ],
+
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
-            ],
-            [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
-            ],
-            [
-                InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
+
+                InlineKeyboardButton("GROUP", url="https://t.me/wolfpackmedia"),
+
+                InlineKeyboardButton("ONWER", url="https://t.me/mhd_thanzeer"),
+
             ]
+
+           
+
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
     m=await message.reply_photo(photo="https://telegra.ph/file/4e839766d45935998e9c6.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
@@ -246,19 +243,13 @@ async def start(client, message):
 async def help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("SEARCH SONGS INLINE", switch_inline_query_current_chat=""),
+                InlineKeyboardButton("SEARCH SONGS HERE", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
-            ],
-            [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
-            ],
-            [
-                InlineKeyboardButton("CLOSE MENU", callback_data="close"),
+                InlineKeyboardButton("GROUP", url="https://t.me/wolfpackmedia"),
+                InlineKeyboardButton("ONWER", url="https://t.me/mhd_thanzeer"),
             ]
+           
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
     if msg.get('help') is not None:
