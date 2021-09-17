@@ -97,7 +97,7 @@ async def song(_, message: Message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        cap =f'🎼 <b>Title:</b> <a href="{link}">{title}</a>\n\n
+        cap = f'🎼 <b>Title:</b> <a href="{link}">{title}</a>\n\n
 
 ⏳ <b>Duration:</b>{duration}\n\n
 
