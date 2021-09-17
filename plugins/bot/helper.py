@@ -28,7 +28,7 @@ CHAT=Config.CHAT
 ADMINS=Config.ADMINS
 playlist=Config.playlist
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **MHD CREATION** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @mhd_thanzeer 😉!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\n **Dᴏ Yᴏᴜ Wᴀɴᴛ Dᴏᴡɴʟᴏᴀᴅ A Sᴏɴɢ..?**\n\n**Exᴀᴍᴘʟᴇ :** /song `Marshmallow`"
 HELP_TEXT = """
 🏷️ --**Setting Up**-- :
 
@@ -60,8 +60,8 @@ HELP_TEXT = """
 \u2022 `/unmute` - unmute the vc userbot
 \u2022 `/restart` - update & restart the bot
 
-© **Powered By** : 
-**@mhd_thanzeer** 👑
+© **Powered By** : **@mhd_thanzeer** 👑
+
 """
 
 
