@@ -28,7 +28,7 @@ CHAT=Config.CHAT
 ADMINS=Config.ADMINS
 playlist=Config.playlist
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\n **Dᴏ Yᴏᴜ Wᴀɴᴛ Dᴏᴡɴʟᴏᴀᴅ A Sᴏɴɢ..?**\n\n**Exᴀᴍᴘʟᴇ :** /song `Marshmallow`"
+HOME_TEXT = "🤓 **Hi [{}](tg://user?id={})**,\n\n **Dᴏ Yᴏᴜ Wᴀɴᴛ Dᴏᴡɴʟᴏᴀᴅ A Sᴏɴɢ..?**\n\n**Exᴀᴍᴘʟᴇ :** `/song Marshmallow`"
 HELP_TEXT = """
 🏷️ --**Setting Up**-- :
 
