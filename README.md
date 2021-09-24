@@ -1,5 +1,6 @@
 # Telegram Radio Player V3 [![Mentioned in Awesome Telegram Calls](https://awesome.re/mentioned-badge-flat.svg)]
 
+[💯](https://telegra.ph/file/36c36416722e6855817bf.jpg)
 An Advanced Telegram Bot to Play Nonstop Radio/Music/YouTube Live in Channel or Group Voice Chats.
 
 This is also the source code of the bot which is being used for playing
